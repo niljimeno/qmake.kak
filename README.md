@@ -7,6 +7,15 @@ Example command:
 qmake "ls -lha"
 ```
 
+### How is this different from :terminal?
+The difference is that there is always a
+`read` at the end of the script.
+
+That means that for tasks where you want to see the output of a process
+instead of immediately closing the terminal when it's done,
+you can use qmake.
+
+
 ### Installation:
 With plug.kak:
 ```kak
